@@ -6,7 +6,7 @@ Less than: a < b
 Less than or equal to: a <= b
 Greater than: a > b
 Greater than or equal to: a >= b
-Equal to a == b
+Equal to: a == b
 Not Equal to: a != b
 You can use these conditions to perform different actions for different decisions.
 
@@ -29,7 +29,7 @@ int main() {
     cin >> age;
 
     if (age >= 18) {
-        cout << "You are an adult. " << endl;
+        cout << "You are an Adult. " << endl;
     } else {
         cout << "You are a Minor. " << endl;
     }
